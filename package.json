@@ -1,0 +1,23 @@
+{
+  "name": "core",
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./lib": "./lib.js",
+    "./cs": "./lib/cs.js"
+  },
+  "main": "./index.js",
+  "types": "types/index.d.ts",
+  "files": [
+    "types/",
+    "system/",
+    "index.js"
+  ],
+  "dependencies": {
+    "qs": "^6.11.0",
+    "undici": "^5.10.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.18"
+  }
+}
