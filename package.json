@@ -1,23 +1,28 @@
 {
-  "name": "core",
-  "type": "module",
-  "exports": {
-    ".": "./index.js",
-    "./lib": "./lib.js",
-    "./cs": "./lib/cs.js"
-  },
-  "main": "./index.js",
-  "types": "types/index.d.ts",
-  "files": [
-    "types/",
-    "system/",
-    "index.js"
-  ],
-  "dependencies": {
-    "qs": "^6.11.0",
-    "undici": "^5.10.0"
-  },
-  "devDependencies": {
-    "@types/node": "^18.11.18"
-  }
+	"name": "mxcore",
+	"type": "module",
+	"exports": {
+		".": "./index.js",
+		"./lib": "./lib.js",
+		"./cs": "./lib/cs.js"
+	},
+	"main": "./index.js",
+	"types": "types/index.d.ts",
+	"files": [
+		"types/",
+		"system/",
+		"index.js"
+	],
+	"dependencies": {
+		"awilix": "^8.0.0",
+		"dotenv": "^16.0.3",
+		"qs": "^6.11.0",
+		"undici": "^5.10.0",
+		"xconsoler": "^1.0.6"
+	},
+	"devDependencies": {
+		"@types/node": "^18.11.18",
+		"@typescript-eslint/eslint-plugin": "^5.50.0",
+		"@typescript-eslint/parser": "^5.50.0"
+	}
 }

@@ -5,8 +5,8 @@ interface _options {
   stop?(): void;
 }
 
-declare class ServiceController {
+declare class Service {
   constructor(serviceName: _serviceName, options: _options);
 }
 
-export { ServiceController };
+export { Service };
