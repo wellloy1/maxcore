@@ -1,6 +1,6 @@
 {
 	"version":"1.0.0",
-	"name": "mxcore",
+	"name": "maxcore",
 	"type": "module",
 	"exports": {
 		".": "./index.js",
