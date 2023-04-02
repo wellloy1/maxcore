@@ -3,7 +3,7 @@
 		"noEmit": true,
 		"checkJs": true,
 		"target": "ES2022",
-		"module": "CommonJS",
+		"module": "ESNext",
 		"lib": ["ES2022"],
 		"esModuleInterop": true,
 		"isolatedModules": true,

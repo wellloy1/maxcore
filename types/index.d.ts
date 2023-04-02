@@ -9,6 +9,10 @@ declare interface _services {
 	threads?: number;
 	logger?: object;
 	di?: any;
+	disable?: boolean;
+	onStart?(): void;
+	onStop?(): void;
+	onError?(): void;
 }
 
 declare interface _options {
@@ -19,5 +23,3 @@ declare interface _options {
 declare async function start(options: _options): Promise<void>;
 
 export { start };
-
-export {};

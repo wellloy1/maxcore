@@ -6,6 +6,12 @@
 		"./lib": "./lib.js",
 		"./cs": "./lib/cs.js"
 	},
+	"scripts": {
+		"doc": "cd ./doc && npm run serve",
+		"doc:install": "cd ./doc && npm i",
+		"doc:dev": "cd ./doc && npm run dev",
+		"doc:build": "cd ./doc && npm run build"
+	},
 	"main": "./index.js",
 	"types": "types/index.d.ts",
 	"files": [
@@ -16,6 +22,7 @@
 	"dependencies": {
 		"awilix": "^8.0.0",
 		"dotenv": "^16.0.3",
+		"highlight.js": "^11.7.0",
 		"qs": "^6.11.0",
 		"undici": "^5.10.0",
 		"xconsoler": "^1.0.6"

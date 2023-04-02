@@ -136,7 +136,7 @@ export async function loadServices(config) {
 
 			if (!eventsModule.default) {
 				throw Error(
-					`Cannot load controller "${serviceName}". Controller must exports as default.`
+					`Cannot load events file for "${serviceName}". Events must exports as default.`
 				);
 			}
 
